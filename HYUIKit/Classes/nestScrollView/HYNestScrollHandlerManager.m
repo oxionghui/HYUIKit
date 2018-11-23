@@ -1,13 +1,13 @@
 //
-//  DYNestScrollHandlerManager.m
+//  HYNestScrollHandlerManager.m
 //  AFNetworking
 //
 //  Created by ios on 2018/11/23.
 //
 
-#import "DYNestScrollHandlerManager.h"
+#import "HYNestScrollHandlerManager.h"
 
-@implementation DYNestScrollHandlerManager
+@implementation HYNestScrollHandlerManager
 //内层scrollView滑动回调
 - (void)insideViewDidScroll:(UIScrollView<DYNestScrollInSideViewProtocol> *)scrollView {
     self.nsInsideScrollView = scrollView;

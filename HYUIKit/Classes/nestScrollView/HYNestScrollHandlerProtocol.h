@@ -23,7 +23,7 @@
 @end
 
 //嵌套处理协议
-@protocol DYNestScrollHandlerProtocol<NSObject>
+@protocol HYNestScrollHandlerProtocol<NSObject>
 @property (nonatomic, strong) UIScrollView<DYNestScrollOutSideViewProtocol> *nsOutsideScrollView; //外部容器视图
 @property (nonatomic, strong) UIScrollView<DYNestScrollInSideViewProtocol> *nsInsideScrollView;//当前内部容器视图
 @property (nonatomic, assign) CGFloat nsStickOffset;//悬停间距
@@ -32,7 +32,7 @@
 @end
 
 @protocol DYNestScrollRegisterHandlerProtocol<NSObject>
-- (void)setNestScrollHandler:(id<DYNestScrollHandlerProtocol>)nestManager;
+- (void)setNestScrollHandler:(id<HYNestScrollHandlerProtocol>)nestManager;
 @end
 
 #endif /* HYNestScrollHandlerProtocol_h */
