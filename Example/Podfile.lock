@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FBRetainCycleDetector (0.1.4)
+  - FLAnimatedImage (1.0.12)
+  - HYTipView (0.0.3)
+  - HYUIKit (0.0.1)
+  - MarqueeLabel (3.2.0):
+    - MarqueeLabel/ObjC (= 3.2.0)
+  - MarqueeLabel/ObjC (3.2.0)
+  - Masonry (1.1.0)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+
+DEPENDENCIES:
+  - AFNetworking
+  - FLAnimatedImage (= 1.0.12)
+  - HYTipView
+  - HYUIKit (from `../`)
+  - MarqueeLabel
+  - Masonry
+  - MLeaksFinder
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FBRetainCycleDetector
+    - FLAnimatedImage
+    - HYTipView
+    - MarqueeLabel
+    - Masonry
+    - MLeaksFinder
+
+EXTERNAL SOURCES:
+  HYUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  HYTipView: 1624b1fefd7f7a7b436823533e7b70295daf92ce
+  HYUIKit: 976990e76aa09aa1d501fa1b5f2a5cfe8fc65f3f
+  MarqueeLabel: 440a502b91a9179bd98f9fff00ba1150650a1c0e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+
+PODFILE CHECKSUM: 7f7c47e5365e62dd360804352afad7e07b931ab5
+
+COCOAPODS: 1.5.3
