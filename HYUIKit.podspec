@@ -29,10 +29,13 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.platform = :ios, "8.0"
-  s.ios.deployment_target = '8.0'
+  
+  s.source_files = 'HYUIKit/Classes/**/*.{h,m,mm}'
+  s.public_header_files = 'HYUIKit/Classes/**/*.h'
 
-  s.source_files = 'sources/*'
+  s.resource_bundles =  {
+    'HYUIKit' => ['HYUIKit/Assets/**/*.{storyboard,xcassets,xib,plist,png,gif,jpg,webp}']
+  }
 
 s.xcconfig = {
   'ENABLE_BITCODE' => 'NO'
