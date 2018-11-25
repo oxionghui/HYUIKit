@@ -1,0 +1,36 @@
+{
+  "name": "HYUIKit",
+  "version": "0.0.1",
+  "summary": "The Component of HYUIKit.",
+  "description": "# TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/oxionghui/HYTipView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xxx": "http://gitlab.xxx.com/xxx"
+  },
+  "source": {
+    "git": "https://github.com/oxionghui/HYUIKit.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HYUIKit/Classes/**/*.{h,m,mm}",
+  "public_header_files": "HYUIKit/Classes/**/*.h",
+  "resource_bundles": {
+    "HYUIKit": [
+      "HYUIKit/Assets/**/*.{storyboard,xcassets,xib,plist,png,gif,jpg,webp}"
+    ]
+  },
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "HYTipView": [
+
+    ]
+  }
+}

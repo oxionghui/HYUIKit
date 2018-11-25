@@ -7,16 +7,23 @@
 //
 
 #import "ViewController.h"
+#import "HyDemoView.h"
+#import "HYTipsView.h"
+
 
 @interface ViewController ()
-
+@property (nonatomic, strong) HyDemoView *demoView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = [UIColor grayColor];
+    _demoView = [[HyDemoView alloc] initWithFrame:CGRectMake(100, 200, 200, 200)];
+    _demoView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:_demoView];
 }
 
 

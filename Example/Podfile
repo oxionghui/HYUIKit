@@ -10,10 +10,10 @@ target 'HYUIKit’ do
 	pod 'HYUIKit’, :path => '../'
 
  	pod 'Masonry'
- 	pod 'AFNetworking'
+ 	pod 'AFNetworking', '3.2.0'
  
 	pod 'MLeaksFinder'
-    pod 'HYTipView'
+#pod 'HYTipView'
     pod 'MarqueeLabel'
     pod 'FLAnimatedImage', '1.0.12'
 end
