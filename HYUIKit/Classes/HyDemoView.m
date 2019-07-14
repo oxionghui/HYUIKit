@@ -6,9 +6,9 @@
 //
 
 #import "HyDemoView.h"
-#import "Masonry.h"
+//#import "Masonry.h"
 #import "UIImage+HyUIKit.h"
-#import <HYTipsView.h>
+//#import <HYTipsView.h>
 
 @interface HyDemoView ()
 @property (nonatomic, strong) UIImageView *imgView;
@@ -25,14 +25,19 @@
 }
 
 - (void)setupViews {
+    CGSize superSize = self.frame.size;
     _imgView = [[UIImageView alloc] init];
     _imgView.image = [UIImage uiKit_imageNamed:@"tabDiscovery_activity"];
+    CGSize imgSize = _imgView.image.size;
+    CGFloat offsetX = (superSize.width - imgSize.width) * 0.5;
+    CGFloat offsetY = (superSize.height - imgSize.height) * 0.5;
+    _imgView.frame = CGRectMake(offsetX, offsetY, imgSize.width, imgSize.height);
     [self addSubview:_imgView];
-    [_imgView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.equalTo(self);
-    }];
+//    [_imgView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.center.equalTo(self);
+//    }];
     
-    HYTipsView *tipView = [HYTipsView initTips:@"这是测试Tips的" fontSize:15 textColor:[UIColor redColor] arrowDirection:HYTipsArrowDirectionDown arrowPointTo:CGPointMake(100, 100) arrowAnchor:0.5];
-    [tipView showInView:self];
+//    HYTipsView *tipView = [HYTipsView initTips:@"这是测试Tips的" fontSize:15 textColor:[UIColor redColor] arrowDirection:HYTipsArrowDirectionDown arrowPointTo:CGPointMake(100, 100) arrowAnchor:0.5];
+//    [tipView showInView:self];
 }
 @end

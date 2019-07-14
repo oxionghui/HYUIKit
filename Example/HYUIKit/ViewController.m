@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "HyDemoView.h"
-#import "HYTipsView.h"
 
 
 @interface ViewController ()

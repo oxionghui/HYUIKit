@@ -14,36 +14,18 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
-  - FBRetainCycleDetector (0.1.4)
-  - FLAnimatedImage (1.0.12)
-  - HYTipView (0.0.3)
-  - HYUIKit (0.0.1):
-    - HYTipView
-  - MarqueeLabel (3.1.4):
-    - MarqueeLabel/ObjC (= 3.1.4)
-  - MarqueeLabel/ObjC (3.1.4)
+  - HYUIKit (0.0.1)
   - Masonry (1.1.0)
-  - MLeaksFinder (1.0.0):
-    - FBRetainCycleDetector
 
 DEPENDENCIES:
   - AFNetworking (= 3.2.0)
-  - FLAnimatedImage (= 1.0.12)
-  - HYTipView
   - HYUIKit (from `../`)
-  - MarqueeLabel
   - Masonry
-  - MLeaksFinder
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - FBRetainCycleDetector
-    - FLAnimatedImage
-    - HYTipView
-    - MarqueeLabel
     - Masonry
-    - MLeaksFinder
 
 EXTERNAL SOURCES:
   HYUIKit:
@@ -51,14 +33,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
-  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
-  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  HYTipView: 1624b1fefd7f7a7b436823533e7b70295daf92ce
-  HYUIKit: 0f27cbe009af6b553112b9beed4acd33e8fb65ec
-  MarqueeLabel: bf768455fe88d427f71476ebb23f9092b660f40b
+  HYUIKit: f8502a5575928b32707fd76b7d3c36b8d906a949
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
 
-PODFILE CHECKSUM: 6fc1ab6a66c91f253e0b49f928287fe225d48755
+PODFILE CHECKSUM: 645e64ca03469f2de511dd9a891dd3ad1b41dd49
 
 COCOAPODS: 1.5.0

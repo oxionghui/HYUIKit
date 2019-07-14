@@ -42,6 +42,6 @@ s.xcconfig = {
 }
 
 
-s.dependency 'HYTipView'
+# s.dependency 'HYTipView'
 
 end

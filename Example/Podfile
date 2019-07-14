@@ -12,10 +12,10 @@ target 'HYUIKit’ do
  	pod 'Masonry'
  	pod 'AFNetworking', '3.2.0'
  
-	pod 'MLeaksFinder'
-#pod 'HYTipView'
-    pod 'MarqueeLabel'
-    pod 'FLAnimatedImage', '1.0.12'
+#	pod 'MLeaksFinder'
+#   pod 'HYTipView'
+# pod 'MarqueeLabel'
+#   pod 'FLAnimatedImage', '1.0.12'
 end
 
 
