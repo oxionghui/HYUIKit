@@ -28,10 +28,13 @@
     CGSize superSize = self.frame.size;
     _imgView = [[UIImageView alloc] init];
     _imgView.image = [UIImage uiKit_imageNamed:@"tabDiscovery_activity"];
+    _imgView.backgroundColor = [UIColor blueColor];
     CGSize imgSize = _imgView.image.size;
     CGFloat offsetX = (superSize.width - imgSize.width) * 0.5;
     CGFloat offsetY = (superSize.height - imgSize.height) * 0.5;
-    _imgView.frame = CGRectMake(offsetX, offsetY, imgSize.width, imgSize.height);
+    CGFloat imgWidth = imgSize.width > 0 ? imgSize.width : 50;
+    CGFloat imgHeight = imgSize.height > 0 ? imgSize.height : 50;
+    _imgView.frame = CGRectMake(offsetX, offsetY, imgWidth, imgHeight);
     [self addSubview:_imgView];
 //    [_imgView mas_makeConstraints:^(MASConstraintMaker *make) {
 //        make.center.equalTo(self);

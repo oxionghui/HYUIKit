@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2AE303A0FD2E3F34E88072C3815C414D"
+               BlueprintIdentifier = "F3500A0BCF1DCE5CA467658C79B7567F"
                BuildableName = "HYUIKit.bundle"
                BlueprintName = "HYUIKit-HYUIKit"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2AE303A0FD2E3F34E88072C3815C414D"
+            BlueprintIdentifier = "F3500A0BCF1DCE5CA467658C79B7567F"
             BuildableName = "HYUIKit.bundle"
             BlueprintName = "HYUIKit-HYUIKit"
             ReferencedContainer = "container:Pods.xcodeproj">
