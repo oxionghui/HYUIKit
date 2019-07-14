@@ -13,6 +13,7 @@
 
 + (UIImage *)uiKit_imageNamed:(NSString *)imageName {
     NSBundle *bundle = [NSBundle hyUIKitBundle];
+    NSLog(@"uiKit_imageNamed bundle:%@", bundle);
     if (@available(iOS 8.0, *)) {
         UIImage *image = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
         

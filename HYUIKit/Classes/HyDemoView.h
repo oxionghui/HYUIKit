@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HyDemoView : UIView
-
+@property (nonatomic, strong, readonly) UIImageView *imgView;
 @end
 
 NS_ASSUME_NONNULL_END

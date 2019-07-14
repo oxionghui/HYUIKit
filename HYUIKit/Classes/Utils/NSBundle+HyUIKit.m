@@ -12,7 +12,9 @@
 
 + (NSBundle *)hyUIKitBundle {
     NSBundle *libBundle = [NSBundle bundleForClass:NSClassFromString(@"HyDemoView")];
+    NSLog(@"libBundle-%@", libBundle);
     NSString *bundlePath = [libBundle pathForResource:@"HYUIKit" ofType:@"bundle"];
+    NSLog(@"bundlePath-%@", bundlePath);
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     return bundle;
 }
