@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "HyDemoView.h"
-//#import <HYUIKit/HyDemoView.h>
+//#import "HyDemoView.h"
+#import <HYUIKit/HyDemoView.h>
 
 
 @interface ViewController ()
