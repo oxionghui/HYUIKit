@@ -10,7 +10,8 @@
 //#import "HyDemoView.h"
 #import <HYUIKit/HyDemoView.h>
 #import <HYTipView/HYCustomeView.h>
-
+#import <DYRecordSDK/DYRecordSDK.h>
+#import <HYThirdSDK/HYThirdSDK.h>
 
 @interface ViewController ()
 @property (nonatomic, strong) HyDemoView *demoView;

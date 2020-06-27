@@ -1,0 +1,6 @@
+framework module HYThirdSDK {
+  umbrella header "HYThirdSDK.h"
+
+  export *
+  module * { export * }
+}

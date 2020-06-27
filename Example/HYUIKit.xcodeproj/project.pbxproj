@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CED476D479C98701CD1FC07 /* libPods-HYUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4545878F7F55D58BA9355A /* libPods-HYUIKit.a */; };
+		579B47C324A77EBA00F29869 /* HYThirdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579B47C224A77EBA00F29869 /* HYThirdSDK.framework */; };
 		8213E9D321A83EFC005F4680 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213E9D221A83EFC005F4680 /* AppDelegate.m */; };
 		8213E9D621A83EFD005F4680 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8213E9D521A83EFD005F4680 /* ViewController.m */; };
 		8213E9D921A83EFD005F4680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8213E9D721A83EFD005F4680 /* Main.storyboard */; };
@@ -35,7 +36,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		579B478024A75B6A00F29869 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		579B47C224A77EBA00F29869 /* HYThirdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HYThirdSDK.framework; sourceTree = "<group>"; };
 		6B02544142E306C96843403D /* Pods-HYUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYUIKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYUIKit/Pods-HYUIKit.release.xcconfig"; sourceTree = "<group>"; };
 		8213E9CE21A83EFC005F4680 /* HYUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8213E9D121A83EFC005F4680 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579B47C324A77EBA00F29869 /* HYThirdSDK.framework in Frameworks */,
 				0CED476D479C98701CD1FC07 /* libPods-HYUIKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +102,7 @@
 		5769612722DAE8220062B497 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				579B47C224A77EBA00F29869 /* HYThirdSDK.framework */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -184,6 +201,7 @@
 				8213E9CB21A83EFC005F4680 /* Frameworks */,
 				8213E9CC21A83EFC005F4680 /* Resources */,
 				846C9B09720F4CE66C3E9A36 /* [CP] Copy Pods Resources */,
+				579B478024A75B6A00F29869 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -516,8 +534,8 @@
 			baseConfigurationReference = F6518BCC29A939F6D59B012A /* Pods-HYUIKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8ZMDNVX389;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 34UL9Z437G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HYUIKit/Lib",
@@ -527,8 +545,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.HYUIKit;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.douyu.record;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development tv.douyu.record";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -538,8 +557,8 @@
 			baseConfigurationReference = 6B02544142E306C96843403D /* Pods-HYUIKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8ZMDNVX389;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 34UL9Z437G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HYUIKit/Lib",
@@ -549,8 +568,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ios.HYUIKit;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.douyu.record;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development tv.douyu.record";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

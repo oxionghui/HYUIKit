@@ -1,0 +1,6 @@
+framework module DYRecordSDK {
+  umbrella header "DYRecordSDK.h"
+
+  export *
+  module * { export * }
+}
