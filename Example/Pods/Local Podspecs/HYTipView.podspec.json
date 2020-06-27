@@ -1,0 +1,33 @@
+{
+  "name": "HYTipView",
+  "version": "0.0.3",
+  "summary": "The Component of HYTipView.",
+  "description": "# TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/oxionghui/HYTipView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xx": "http://gitlab.xx.com/xx"
+  },
+  "source": {
+    "git": "https://github.com/oxionghui/HYTipView.git",
+    "tag": "0.0.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "sources/*",
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "Masonry": [
+      "1.1.0"
+    ],
+    "YYModel": [
+      "1.0.4"
+    ]
+  }
+}

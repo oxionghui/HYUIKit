@@ -37,11 +37,8 @@ Pod::Spec.new do |s|
     'HYUIKit' => ['HYUIKit/Assets/**/*.{storyboard,xcassets,xib,plist,png,gif,jpg,webp}']
   }
 
-s.xcconfig = {
-  'ENABLE_BITCODE' => 'NO'
-}
-
-
-# s.dependency 'HYTipView'
+  s.xcconfig = {
+    'ENABLE_BITCODE' => 'NO'
+  }
 
 end

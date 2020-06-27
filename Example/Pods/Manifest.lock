@@ -14,21 +14,38 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
+  - HYTipView (0.0.3):
+    - Masonry (= 1.1.0)
+    - YYModel (= 1.0.4)
+  - HYUIKit (0.0.3)
   - Masonry (1.1.0)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (= 3.2.0)
+  - HYTipView (from `/Users/smilencelee/Oxh/github-pro/HYTipView`)
+  - HYUIKit (from `../`)
   - Masonry
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - Masonry
+    - YYModel
+
+EXTERNAL SOURCES:
+  HYTipView:
+    :path: "/Users/smilencelee/Oxh/github-pro/HYTipView"
+  HYUIKit:
+    :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  HYTipView: fe286acb5031f8c8782091be01860353c1f1f3cc
+  HYUIKit: 6e53314d8f7aa747a8bddde0e7e20cd81e4d6d19
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c749e919bd9541eb7b15d51f9aba0a26d24625ae
+PODFILE CHECKSUM: 15fc11d30b1ecafeb31ea903353b61441b7f70ea
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.7.2
